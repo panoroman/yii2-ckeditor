@@ -11,7 +11,7 @@ CKEditor — свободный WYSIWYG-редактор, который мож�
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
+php composer.phar require --prefer-dist panoroman/yii2-ckeditor "*"
 ```
 
 или добавить
