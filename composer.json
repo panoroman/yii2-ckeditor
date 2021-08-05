@@ -1,21 +1,21 @@
 {
-    "name": "mihaildev/yii2-ckeditor",
+    "name": "panoroman/yii2-ckeditor",
     "keywords": ["yii", "wysiwyg", "editor", "CKEditor"],
     "description": "Yii2 CKEditor",
-    "homepage": "https://github.com/MihailDev/yii2-ckeditor",
+    "homepage": "https://github.com/panoroman/yii2-ckeditor",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
 	"minimum-stability":"stable",
     "authors": [
         {
-            "name": "Mihail",
-            "email": "mihail.kucher@gmail.com",
-            "homepage": "https://github.com/MihailDev",
+            "name": "Roman",
+            "email": "newgon171@gmail.com",
+            "homepage": "https://github.com/panoroman",
             "role": "Developer"
         }
     ],
     "autoload": {
-        "psr-4": {"mihaildev\\ckeditor\\": ""}
+        "psr-4": {"panoroman\\ckeditor\\": ""}
     },
     "require": {
         "yiisoft/yii2": "*"

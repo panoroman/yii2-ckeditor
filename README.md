@@ -17,7 +17,7 @@ php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
 или добавить
 
 ```json
-"mihaildev/yii2-ckeditor": "*"
+"panoroman/yii2-ckeditor": "*"
 ```
 
 в разделе `require` вашего composer.json файла.
@@ -25,7 +25,7 @@ php composer.phar require --prefer-dist mihaildev/yii2-ckeditor "*"
 ## Использование
 
 ```php
-use mihaildev\ckeditor\CKEditor;
+use panoroman\ckeditor\CKEditor;
 use yii\helpers\Html;
 
 CKEditor::widget([
