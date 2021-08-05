@@ -11,13 +11,13 @@ CKEditor — свободный WYSIWYG-редактор, который мож�
 Либо запустить
 
 ```
-php composer.phar require --prefer-dist panoroman/yii2-ckeditor "*"
+php composer.phar require --prefer-dist panoroman/yii2-ckeditor "dev-master"
 ```
 
 или добавить
 
 ```json
-"panoroman/yii2-ckeditor": "*"
+"panoroman/yii2-ckeditor": "dev-master"
 ```
 
 в разделе `require` вашего composer.json файла.
