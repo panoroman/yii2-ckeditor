@@ -4,7 +4,7 @@
  * Time: 22:16
  */
 
-namespace mihaildev\widget;
+namespace panoroman\widget;
 
 use yii\web\AssetBundle;
 

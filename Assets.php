@@ -4,7 +4,7 @@
  * Time: 1:06
  */
 
-namespace mihaildev\ckeditor;
+namespace panoroman\ckeditor;
 
 use yii\web\AssetBundle;
 
