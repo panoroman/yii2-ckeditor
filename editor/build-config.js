@@ -65,6 +65,7 @@ var CKBUILDER_CONFIG = {
 		'filebrowser' : 1,
 		'find' : 1,
 		'flash' : 1,
+		'video' : 1,
 		'floatingspace' : 1,
 		'font' : 1,
 		'format' : 1,
