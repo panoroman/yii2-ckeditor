@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class AssetsJQueryAdapter extends AssetBundle{
 
-	public $sourcePath = '@mihaildev/ckeditor/editor/adapters';
+	public $sourcePath = '@panoroman/ckeditor/editor/adapters';
 
     public $js = [
         'jquery.js',
@@ -19,6 +19,6 @@ class AssetsJQueryAdapter extends AssetBundle{
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'mihaildev\ckeditor\Assets'
+        'panoroman\ckeditor\Assets'
     ];
 }

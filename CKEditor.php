@@ -131,11 +131,11 @@ class CKEditor extends InputWidget{
 
         echo Html::endTag('div');
 		$js = [
-			'mihaildev.ckEditor.registerOnChange('.Json::encode($this->options['id']).');'
+			'panoroman.ckEditor.registerOnChange('.Json::encode($this->options['id']).');'
 		];
 
 		if(isset($this->editorOptions['filebrowserUploadUrl']))
-			$js[] = "mihaildev.ckEditor.registerCsrf();";
+			$js[] = "panoroman.ckEditor.registerCsrf();";
 
 		if(!isset($this->editorOptions['on']['instanceReady']))
 			$this->editorOptions['on']['instanceReady'] = new JsExpression("function( ev ){".implode(' ', $js)."}");
